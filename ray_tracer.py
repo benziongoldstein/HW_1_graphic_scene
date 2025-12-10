@@ -65,7 +65,7 @@ def main():
     # Parse the scene file
     camera, scene_settings, objects = parse_scene_file(args.scene_file)
 
-    # TODO: Implement the ray tracer
+    
 
     # Dummy result
     image_array = np.zeros((500, 500, 3))
